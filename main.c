@@ -134,7 +134,7 @@ int main(void)
 
         if (mode_state[1] == 1) //若現在是Timer Mode則將秒數設為180秒 並啟動Timer1
         {
-            count_down = 70; //秒數
+            count_down = 180; //秒數
 
             if (timer_present(TIMER_1))
             {
